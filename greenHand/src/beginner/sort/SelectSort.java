@@ -9,6 +9,9 @@ public class SelectSort {
     }
 
     private static void sort(int[] arr) {
+        if (arr == null || arr.length == 1){
+            return;
+        }
         for (int i = 0; i < arr.length; i++) {
             int minValueIndex = i;
             for (int j = i + 1; j < arr.length; j++) {
@@ -18,10 +21,10 @@ public class SelectSort {
         }
     }
 
-    private static void swap(int[] arr, int i, int minValueIndex) {
+    private static void swap(int[] arr, int i, int j) {
         int tmp = arr[i];
-        arr[i] = arr[minValueIndex];
-        arr[minValueIndex] = tmp;
+        arr[i] = arr[j];
+        arr[j] = tmp;
     }
 
     private static void printArr(int[] arr) {
