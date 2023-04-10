@@ -1,5 +1,10 @@
 package beginner.sort;
 
+/**
+ * 1. 先在0～N-1中查找最小的值,然后交换放到0位置
+ * 2. 在在1～N-1中查找最小的值,然后交换放到1位置
+ * 3. ... ...
+ */
 public class SelectSort {
     public static void main(String[] args) {
         int[] arr = new int[]{46, 5, 7, 10, 8, 6, 9, 3, 0, 2, 4, 1, 5};
@@ -28,8 +33,8 @@ public class SelectSort {
     }
 
     private static void printArr(int[] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + "\t");
+        for (int j : arr) {
+            System.out.print(j + "\t");
         }
         System.out.println();
     }

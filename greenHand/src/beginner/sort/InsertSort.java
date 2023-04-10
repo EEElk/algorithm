@@ -1,5 +1,11 @@
 package beginner.sort;
 
+/**
+ * 从第一个元素开始，该元素默认已经排好序。
+ * 然后，取出下一个元素，在已经排好序的元素序列从后向前扫描；
+ * 如果该元素大于新元素，将该元素移到下一个位置，直到找到已排序的元素小于或者等于新元素的位置；
+ * 将新元素插入到该位置后，重复上述步骤，直到排序完成。
+ */
 public class InsertSort {
     public static void main(String[] args) {
         int[] arr = new int[]{46, 5, 7, 10, 8, 6, 9, 3, 0, 2, 4, 1, 5};
@@ -52,8 +58,8 @@ public class InsertSort {
     }
 
     private static void printArr(int[] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + "\t");
+        for (int j : arr) {
+            System.out.print(j + "\t");
         }
         System.out.println();
     }

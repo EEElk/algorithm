@@ -1,5 +1,10 @@
 package beginner.sort;
 
+/**
+ *   [ 2 1 3 7 6 5 8 ]
+ *      0-7:第1个和第2个比较 ,小的交换在左 ; 第2个和第3个比较 ,小的交换在左; ......
+ *      0-6:第1个和第2个比较 ,小的交换在左 ; 第2个和第3个比较 ,小的交换在左; ......
+ */
 public class BubbleSort {
     public static void main(String[] args) {
         int[] arr = new int[]{46, 5, 7, 10, 8, 6, 9, 3, 0, 2, 4, 1, 5};
@@ -33,8 +38,8 @@ public class BubbleSort {
     }
 
     private static void printArr(int[] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + "\t");
+        for (int j : arr) {
+            System.out.print(j + "\t");
         }
         System.out.println();
     }
