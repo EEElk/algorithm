@@ -1,4 +1,4 @@
-package beginner.sort;
+package class01;
 
 /**
  *   [ 2 1 3 7 6 5 8 ]
