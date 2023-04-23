@@ -1,4 +1,4 @@
-package random;
+package class02;
 
 /**
  * 从随机数1-5得到随机数1-7

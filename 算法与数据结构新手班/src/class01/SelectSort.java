@@ -1,4 +1,4 @@
-package beginner.sort;
+package class01;
 
 /**
  * 1. 先在0～N-1中查找最小的值,然后交换放到0位置

@@ -1,4 +1,4 @@
-package random;
+package class02;
 
 /**
  * 1.Math.random 随机生成[0, 1)之间的数，且生成各个数的几率相同，呈线性增长

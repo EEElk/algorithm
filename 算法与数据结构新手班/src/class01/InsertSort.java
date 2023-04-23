@@ -1,4 +1,4 @@
-package beginner.sort;
+package class01;
 
 /**
  * 从第一个元素开始，该元素默认已经排好序。
