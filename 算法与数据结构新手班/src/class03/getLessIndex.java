@@ -27,7 +27,7 @@ public class getLessIndex {
         }
         int L = 0;
         int R = N - 1;
-        // L...R 肯定有局部最小
+        // L...R 肯定有局部最小  r - 1是因为当二分到只剩2个数时，mid下标为第一个数，mid-1越界 此时直接比较l和r这两个数就可以了
         while (L < R - 1) {
             int mid = (L + R) / 2;
             if (arr[mid] < arr[mid - 1] && arr[mid] < arr[mid + 1]) {
