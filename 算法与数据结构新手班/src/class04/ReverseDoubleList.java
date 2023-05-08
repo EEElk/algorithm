@@ -3,7 +3,7 @@ package class04;
 /**
  * 双链表的反转
  */
-public class reverseDoubleList {
+public class ReverseDoubleList {
     public static class DoubleNode {
         public int value;
         public DoubleNode last;

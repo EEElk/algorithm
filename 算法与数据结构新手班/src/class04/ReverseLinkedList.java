@@ -3,7 +3,7 @@ package class04;
 /**
  * 单链表的反转
  */
-public class reverseLinkedList {
+public class ReverseLinkedList {
 
     public static class Node {
         public int value;
