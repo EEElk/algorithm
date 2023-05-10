@@ -52,6 +52,7 @@ public class Code03_BitAddMinusMultiDiv {
         return isNeg(a) ^ isNeg(b) ? negNum(res) : res;
     }
 
+    // 解决系统最小值转绝对值
     public static int divide(int a, int b) {
         if (a == Integer.MIN_VALUE && b == Integer.MIN_VALUE) {
             return 1;
