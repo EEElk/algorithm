@@ -1,5 +1,8 @@
 package class06;
 
+/**
+ * 判断两棵树是否结构相同
+ */
 public class Code02_SameTree {
     public static class TreeNode {
         public int val;
