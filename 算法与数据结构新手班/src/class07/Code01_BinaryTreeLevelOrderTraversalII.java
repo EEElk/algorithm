@@ -42,7 +42,7 @@ public class Code01_BinaryTreeLevelOrderTraversalII {
                     queue.add(curNode.right);
                 }
             }
-            ans.add(0, curAns);
+            ans.add(curAns);
         }
         return ans;
     }
